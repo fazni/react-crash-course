@@ -68,3 +68,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
 # react-crash-course
+## Quickstart
+docker build -t react-crashcourse .
+docker run  -d -p 3000:3000 -v $(pwd):/app --name react-training  react-crashcourse
+Check that the containers are running by typing docker ps and then navigating to http://localhost:3000/ in your browser.
