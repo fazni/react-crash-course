@@ -6,6 +6,7 @@ import Header from './components/layout/Header';
 import AddTodo from './components/AddTodo';
 import About from "./components/pages/About";
 import axios from 'axios';
+import MyProvider from './MyProvider';
 
 class App extends Component {
 
@@ -51,6 +52,7 @@ class App extends Component {
 
   render() {
     return (
+        <MyProvider>
         <Router>
         <div className="App">
           <div className="container">
@@ -67,6 +69,7 @@ class App extends Component {
           </div>
         </div>
         </Router>
+        </MyProvider>
     );
   }
 
