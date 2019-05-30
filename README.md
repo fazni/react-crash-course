@@ -1,6 +1,7 @@
 
 [![Build Status](https://travis-ci.org/fazni/react-crash-course.svg?branch=master)](https://travis-ci.org/fazni/react-crash-course)
 [![Coverage Status](https://coveralls.io/repos/github/fazni/react-crash-course/badge.svg?branch=master)](https://coveralls.io/github/fazni/react-crash-course?branch=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
