@@ -23,7 +23,7 @@ class App extends Component {
     this.setState({
       todos: this.state.todos.map(
           (todo) => {
-            if (todo.id == id) {
+            if (todo.id === id) {
               todo.completed = !todo.completed
             }
             return todo;
@@ -35,7 +35,7 @@ class App extends Component {
   // Delete Todo
   delTodo = (id) =>  {
     axios.delete(
-        'https://jsonplaceholder.typicode.com/todos/${id}'
+        `https://jsonplaceholder.typicode.com/todos/${id}`
     ).then(res => this.setState({
       todos: [...this.state.todos.filter(todo => todo.id !== id)]
     }));
