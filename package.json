@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "test:coverage": "npm test -- --coverage",
+    "coverage": "npm test -- --coverage",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "eslintConfig": {
