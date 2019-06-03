@@ -7,7 +7,7 @@ cache:
   - node_modules
 script:
   - npm test
-  - npm test:coverage # Include coverage when running tests
+  - npm coverage # Include coverage when running tests
   - npm run build
 deploy:
   provider: pages
