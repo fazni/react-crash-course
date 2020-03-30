@@ -4,7 +4,7 @@
   "homepage": "https://fazni.github.io/react-crash-course",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.19.2",
     "babel-jest": "^25.2.4",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
