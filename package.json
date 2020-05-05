@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.7",
-    "jest": "^24.8.0"
+    "jest": "^26.0.0"
   }
 }
